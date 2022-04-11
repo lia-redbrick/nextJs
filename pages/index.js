@@ -1,9 +1,10 @@
-import NavBar from "../components/NavBar";
-
+import Head from "next/head";
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <h1><Head>
+        <title>Home | Next Movies</title>
+      </Head></h1>
     </div>
   )
 }
